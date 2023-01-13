@@ -1,5 +1,5 @@
 public class customer {
-	int balance = 50000;
+	int balance = 100000;
 	synchronized void withdraw(int amnt) {
 		if (this.balance< amnt) {
 			System.out.println("Not enough balance");
